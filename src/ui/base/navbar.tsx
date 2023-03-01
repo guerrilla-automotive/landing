@@ -1,23 +1,24 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Section } from '../layouts/section';
 
 const Navbar = () => (
-  <Section yPadding="py-8">
+  <Section yPadding="py-4">
     <div className="flex flex-wrap justify-between items-center">
-      <div className="font-semibold text-xl">
+      <div className="font-semibold text-3xl flex gap-4 items-center">
+        <Image
+          className="rounded-md"
+          src="/assets/images/guerrilla-min.jpg"
+          alt="Guerrilla Automative"
+          height="60"
+          width="60"
+        />
         <Link href="/">Guerrilla Automotive</Link>
       </div>
 
       <nav>
-        <ul className="navbar flex gap-4 items-center font-medium text-xl text-gray-800">
-          <li>
-            <Link href="/">Link 1</Link>
-          </li>
-          <li>
-            <Link href="/">Link 2</Link>
-          </li>
-        </ul>
+        <ul className="navbar flex gap-4 items-center font-medium text-xl"></ul>
       </nav>
 
       <style jsx>
