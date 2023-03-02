@@ -7,8 +7,8 @@ import { Section } from '../layouts/section';
 const Navbar = () => (
   <Background color="bg-neutral-900">
     <Section yPadding="py-4">
-      <div className="flex flex-wrap justify-between items-center">
-        <div className="font-semibold text-3xl flex gap-4 items-center text-neutral-100">
+      <div className="flex flex-wrap justify-center md:justify-between items-center">
+        <div className="font-semibold text-3xl flex flex-col md:flex-row md:gap-4 items-center justify-center text-neutral-100">
           <Image
             className="rounded-md"
             src="/assets/images/guerrilla-min.jpg"

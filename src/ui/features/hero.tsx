@@ -31,8 +31,7 @@ const Hero = () => (
           </p>
           <br />
           <div className="flex gap-1 text-xl text-[#dc0024] font-bold">
-            <span>Need help?</span>
-            <button>Give us a call: 737-747-2233</button>
+            <span>Need help? Give us a call: 737-747-2233</span>
           </div>
         </div>
         <img
