@@ -3,8 +3,8 @@ import { Background } from '../layouts/background';
 import { Section } from '../layouts/section';
 
 const Footer = () => (
-  <Background color="bg-gray-100">
-    <Section>
+  <Background color="bg-neutral-900">
+    <Section className="text-neutral-100">
       <div className="w-full flex justify-between">
         <div className="flex flex-col">
           <span>{AppConfig.legalName} &copy; 2023</span>
