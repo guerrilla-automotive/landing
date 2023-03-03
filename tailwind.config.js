@@ -14,6 +14,9 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      animation: {
+        'spin-fast': 'spin 1s linear infinite',
+      },
       colors: {
         primary: {
           100: '#E6F6FE',

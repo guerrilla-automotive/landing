@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { Background } from '../layouts/background';
 import { Section } from '../layouts/section';
 
@@ -8,6 +10,15 @@ const Hero = () => (
       yPadding="pt-8 pb-12 md:pt-20 md:pb-32"
       className="text-neutral-100"
     >
+      <div className="block md:hidden">
+        <Image
+          className="rounded-md mb-4 mx-auto"
+          src="/assets/images/guerrilla-min.jpg"
+          alt="Guerrilla Automative"
+          height="120"
+          width="120"
+        />
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="text-lg">
           <p>

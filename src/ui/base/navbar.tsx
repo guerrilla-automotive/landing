@@ -10,7 +10,7 @@ const Navbar = () => (
       <div className="flex flex-wrap justify-center md:justify-between items-center">
         <div className="font-semibold text-3xl flex flex-col md:flex-row md:gap-4 items-center justify-center text-neutral-100">
           <Image
-            className="rounded-md"
+            className="rounded-md hidden md:block"
             src="/assets/images/guerrilla-min.jpg"
             alt="Guerrilla Automative"
             height="60"
